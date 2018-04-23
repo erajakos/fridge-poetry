@@ -1,1 +1,5 @@
-# fridge-poetry
+# Fridge Poetry
+
+This is a micro services based fridge poetry project.
+
+
