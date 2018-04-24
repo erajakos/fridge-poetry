@@ -1,4 +1,4 @@
-FROM mhart/alpine-node
+FROM node:9.11.1-alpine 
 
 # set working directory
 RUN mkdir /app
@@ -9,8 +9,8 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 COPY package.json /app/package.json
-RUN npm install --silent
-RUN npm install react-scripts@1.1.4 -g --silent
+RUN npm install
+RUN npm install react-scripts@1.1.4 -g
 
 # start app
 CMD ["npm", "start"]
