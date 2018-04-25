@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './styling/App.css';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Fridge Poetry</h1>
-      </div>
+      <MuiThemeProvider>
+        <h1>Fridge poetry</h1>
+        <RaisedButton label="Default" />
+      </MuiThemeProvider>
     );
   }
 }
