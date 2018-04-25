@@ -7,7 +7,6 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <h1>Fridge poetry</h1>
-        <RaisedButton label="Default" />
       </MuiThemeProvider>
     );
   }
