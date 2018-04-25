@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 html, body {
-  background-color: #aaa;
+  background-color: #fff;
+  font-family: 'Amatic SC';  
+  text-align:center;
+  font-size:150%;
+}
+
+img {
+  width:20%;
 }
