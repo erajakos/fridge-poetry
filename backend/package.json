@@ -4,7 +4,8 @@
   "description": "Backend for Fridge Poetry",
   "scripts": {
     "start": "node ./src/index.js",
-    "test": "./node_modules/mocha/bin/_mocha ./test/**/*.test.js"
+    "test": "./node_modules/mocha/bin/_mocha ./test/**/*.test.js",
+    "db:migrate": "./node_modules/.bin/sequelize db:migrate"
   },
   "author": "Erkki-Ilmari Rajakoski",
   "license": "MIT",
@@ -13,7 +14,11 @@
     "url": "https://github.com/erajakos/fridge-poetry.git"
   },
   "dependencies": {
-    "koa": "^2.5.0"
+    "koa": "^2.5.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0"
   },
   "devDependencies": {
     "mocha": "^5.1.1",
