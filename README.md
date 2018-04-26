@@ -27,7 +27,7 @@ TODO: production builds
 
 <pre>docker-compose exec backend npm run db:seed:all</pre>
 
-## Acknowledges
+## Acknowledgements
 
 Dockerizing create react app is based on this article:
 http://mherman.org/blog/2017/12/07/dockerizing-a-react-app/
