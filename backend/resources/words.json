@@ -1,0 +1,638 @@
+[
+  {
+    "item": "aito",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "aika",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "ehjä",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "elävä",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "hurja",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "kielletty",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "kulta",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "rikki",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "köyhä",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "onnelli",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "pehmeä",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "päivä",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "rakas",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "rikas",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "sopiva",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "vapaa",
+    "tag": "adjektiivi"
+  },
+  {
+    "item": "alku",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "elämä",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "ero",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "herkku",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "hullu",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "humala",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "hymy",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "kahde",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "kaipaus",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "katse",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "kivu",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "loppu",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "matka",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "pakko",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "paniikki",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "rakkaus",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "seikkailu",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "seksi",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "sielu",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "sormus",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "suudelma",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "sydän",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "tunne",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "tuoksu",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "viini",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "ystävä",
+    "tag": "substantiivi"
+  },
+  {
+    "item": "herää",
+    "tag": "verbi"
+  },
+  {
+    "item": "juo",
+    "tag": "verbi"
+  },
+  {
+    "item": "jää",
+    "tag": "verbi"
+  },
+  {
+    "item": "kadu",
+    "tag": "verbi"
+  },
+  {
+    "item": "koskea",
+    "tag": "verbi"
+  },
+  {
+    "item": "mässäillä",
+    "tag": "verbi"
+  },
+  {
+    "item": "odota",
+    "tag": "verbi"
+  },
+  {
+    "item": "odotta",
+    "tag": "verbi"
+  },
+  {
+    "item": "ota",
+    "tag": "verbi"
+  },
+  {
+    "item": "pitää",
+    "tag": "verbi"
+  },
+  {
+    "item": "rakasta",
+    "tag": "verbi"
+  },
+  {
+    "item": "seiso",
+    "tag": "verbi"
+  },
+  {
+    "item": "syö",
+    "tag": "verbi"
+  },
+  {
+    "item": "täytyy",
+    "tag": "verbi"
+  },
+  {
+    "item": "valitse",
+    "tag": "verbi"
+  },
+  {
+    "item": "ymmärrä",
+    "tag": "verbi"
+  },
+  {
+    "item": "ainoa",
+    "tag": "pronomini"
+  },
+  {
+    "item": "eräs",
+    "tag": "pronomini"
+  },
+  {
+    "item": "harva",
+    "tag": "pronomini"
+  },
+  {
+    "item": "hän",
+    "tag": "pronomini"
+  },
+  {
+    "item": "he",
+    "tag": "pronomini"
+  },
+  {
+    "item": "itse",
+    "tag": "pronomini"
+  },
+  {
+    "item": "joka",
+    "tag": "pronomini"
+  },
+  {
+    "item": "kaikki",
+    "tag": "pronomini"
+  },
+  {
+    "item": "kuka",
+    "tag": "pronomini"
+  },
+  {
+    "item": "me",
+    "tag": "pronomini"
+  },
+  {
+    "item": "mikä",
+    "tag": "pronomini"
+  },
+  {
+    "item": "minä",
+    "tag": "pronomini"
+  },
+  {
+    "item": "muu",
+    "tag": "pronomini"
+  },
+  {
+    "item": "sama",
+    "tag": "pronomini"
+  },
+  {
+    "item": "sinä",
+    "tag": "pronomini"
+  },
+  {
+    "item": "te",
+    "tag": "pronomini"
+  },
+  {
+    "item": "toinen",
+    "tag": "pronomini"
+  },
+  {
+    "item": "usea",
+    "tag": "pronomini"
+  },
+  {
+    "item": "a",
+    "tag": "pääte"
+  },
+  {
+    "item": "e",
+    "tag": "pääte"
+  },
+  {
+    "item": "en",
+    "tag": "pääte"
+  },
+  {
+    "item": "i",
+    "tag": "pääte"
+  },
+  {
+    "item": "in",
+    "tag": "pääte"
+  },
+  {
+    "item": "ksi",
+    "tag": "pääte"
+  },
+  {
+    "item": "lla",
+    "tag": "pääte"
+  },
+  {
+    "item": "lle",
+    "tag": "pääte"
+  },
+  {
+    "item": "llä",
+    "tag": "pääte"
+  },
+  {
+    "item": "lta",
+    "tag": "pääte"
+  },
+  {
+    "item": "ltä",
+    "tag": "pääte"
+  },
+  {
+    "item": "me",
+    "tag": "pääte"
+  },
+  {
+    "item": "mme",
+    "tag": "pääte"
+  },
+  {
+    "item": "mmin",
+    "tag": "pääte"
+  },
+  {
+    "item": "n",
+    "tag": "pääte"
+  },
+  {
+    "item": "na",
+    "tag": "pääte"
+  },
+  {
+    "item": "nen",
+    "tag": "pääte"
+  },
+  {
+    "item": "nä",
+    "tag": "pääte"
+  },
+  {
+    "item": "s",
+    "tag": "pääte"
+  },
+  {
+    "item": "ssa",
+    "tag": "pääte"
+  },
+  {
+    "item": "ssä",
+    "tag": "pääte"
+  },
+  {
+    "item": "sta",
+    "tag": "pääte"
+  },
+  {
+    "item": "sti",
+    "tag": "pääte"
+  },
+  {
+    "item": "stä",
+    "tag": "pääte"
+  },
+  {
+    "item": "t",
+    "tag": "pääte"
+  },
+  {
+    "item": "ta",
+    "tag": "pääte"
+  },
+  {
+    "item": "ton",
+    "tag": "pääte"
+  },
+  {
+    "item": "tta",
+    "tag": "pääte"
+  },
+  {
+    "item": "ttä",
+    "tag": "pääte"
+  },
+  {
+    "item": "tä",
+    "tag": "pääte"
+  },
+  {
+    "item": "vat",
+    "tag": "pääte"
+  },
+  {
+    "item": "vät",
+    "tag": "pääte"
+  },
+  {
+    "item": "ä",
+    "tag": "pääte"
+  },
+  {
+    "item": "aina",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "alas",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "anteeksi",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "ehkä",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "ei",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "eikä",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "eilen",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "ennen",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "enää",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "että",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "harvoin",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "hei",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "hiukan",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "huomenna",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "ja",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "jo",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "joko",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "jos",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "joskus",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "jotta",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "jälkeen",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "koska",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "kuin",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "kun",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "kunnes",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "kyllä",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "mikäli",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "mutta",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "myös",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "niin",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "näin",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "paljon",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "pois",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "sekä",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "silti",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "tai",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "tänään",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "ulkona",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "ulos",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "vai",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "vaikka",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "vasta",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "yhä",
+    "tag": "partikkeli"
+  },
+  {
+    "item": "ylös",
+    "tag": "partikkeli"
+  },
+  {
+    "item": ".",
+    "tag": "välimerkki"
+  },
+  {
+    "item": ",",
+    "tag": "välimerkki"
+  },
+  {
+    "item": ";",
+    "tag": "välimerkki"
+  },
+  {
+    "item": "?",
+    "tag": "välimerkki"
+  },
+  {
+    "item": "!",
+    "tag": "välimerkki"
+  },
+  {
+    "item": "-",
+    "tag": "välimerkki"
+  }
+]
