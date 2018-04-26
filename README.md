@@ -1,15 +1,11 @@
 # Fridge Poetry
 
-This is a microservice-based fridge poetry project. Inspired by https://github.com/Krristiina/magnetic-fields
-
-Dockerizing create react app is based on this article:
-http://mherman.org/blog/2017/12/07/dockerizing-a-react-app/
+A microservice-based fridge poetry game. Inspired by https://github.com/Krristiina/magnetic-fields
 
 ## Ecosystem
 
-frontend: ReactJS client
-
-backend: Node / Koa server
+Frontend: ReactJS<br>
+Backend: Node / Koa
 
 TODO: production builds
 
@@ -17,21 +13,24 @@ TODO: production builds
 
 1. Set environment variables
 
-cp .env.dist .env
+<pre>cp .env.dist .env</pre>
 
 2. Launch in docker
 
-docker-compose build && docker-compose up
+<pre>docker-compose build && docker-compose up</pre>
 
 3. Create the database
 
-docker-compose exec backend npm run db:migrate
+<pre>docker-compose exec backend npm run db:migrate</pre>
 
 4. Seed the database with default set of words
 
-docker-compose exec backend npm run db:seed:all
+<pre>docker-compose exec backend npm run db:seed:all</pre>
 
+## Acknowledgements
 
+Dockerizing create react app is based on this article:
+http://mherman.org/blog/2017/12/07/dockerizing-a-react-app/
 
 
 
