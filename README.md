@@ -15,9 +15,23 @@ TODO: production builds
 
 ## How to run locally
 
-1. Copy .env.dist to .env
+1. Set environment variables
 
-2. docker-compose build && docker-compose up
+cp .env.dist .env
+
+2. Launch in docker
+
+docker-compose build && docker-compose up
+
+3. Create the database
+
+docker-compose exec backend npm run db:migrate
+
+4. Seed the database with default set of words
+
+docker-compose exec backend npm run db:seed:all
+
+
 
 
 
