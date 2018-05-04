@@ -1,7 +1,10 @@
 const Koa = require('koa');
+const wordRoutes = require('./routes/word');
 
 const app = new Koa();
 const PORT = process.env.PORT || 9000;
+
+app.use(wordRoutes.routes());
 
 // start the server
 const server = app.listen(PORT, () => {
