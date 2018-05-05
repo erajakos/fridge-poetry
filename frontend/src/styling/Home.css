@@ -9,4 +9,13 @@
 #home img {
   width: 350px;
 }
+
+#home #actions {
+  text-align:center;
+}
+
+#home button {
+  text-align:center;
+  margin:50px;
+}
   

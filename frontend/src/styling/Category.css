@@ -1,0 +1,11 @@
+.category {
+  display: inline-block;
+  font-size: 30px;
+  width: 200px;
+  padding: 50px;
+  background-color: #92b19f;
+  color: #fff;
+  margin: 10px;
+  border-radius: 5px;
+  cursor:pointer;
+}

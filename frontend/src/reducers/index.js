@@ -1,7 +1,8 @@
-const initialState = {
-  words: []
-};
+import { combineReducers } from 'redux';
+import category from './category';
+import { routerReducer } from 'react-router-redux';
 
-const rootReducer = (state = initialState, action) => state;
-
-export default rootReducer;
+export default combineReducers({
+  category,
+  routing: routerReducer
+});
