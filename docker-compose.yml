@@ -22,8 +22,9 @@ services:
       context: backend
       dockerfile: Dockerfile
     volumes:
-      - './backend:/app'
-      - '/app/node_modules'
+      - './backend/src:/app/src'
+      - './backend/test:/app/test'
+      - './backend/resources:/app/resources'
     ports:
       - ${BACKEND_PORT}:9000
     depends_on:
@@ -37,8 +38,8 @@ services:
       context: frontend
       dockerfile: Dockerfile
     volumes:
-      - './frontend:/app'
-      - '/app/node_modules'
+      - './frontend/src:/app/src'
+      - './frontend/public:/app/public'
     ports:
       - ${FRONTEND_PORT}:3000
     environment:
