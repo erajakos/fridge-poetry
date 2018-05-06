@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styling/Word.css';
 
 const Word = props => (
   <div class="word">
