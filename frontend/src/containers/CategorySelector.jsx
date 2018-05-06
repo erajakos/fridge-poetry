@@ -17,7 +17,6 @@ class CategorySelector extends Component {
         this.props.categories.map((category) => (
           <Category 
             name={category.name}
-            id={category.id}
             onClick={() => this.props.onCategoryClick(category)} 
             key={category.id} />
         ))
@@ -27,7 +26,7 @@ class CategorySelector extends Component {
   }
 
   componentDidMount() {
-    this.props.fetchData();
+    this.props.fetchCategories();
   }
 }
 
@@ -36,7 +35,7 @@ CategorySelector.propTypes = {
   isFetching: PropTypes.bool,
   fetchFailure: PropTypes.bool,
   onCategoryClick: PropTypes.func,
-  fetchData: PropTypes.func
+  fetchCategories: PropTypes.func
 };
 
 const mapStateToProps = (state, ownProps) => {
@@ -52,7 +51,7 @@ const mapDispatchToProps = dispatch => {
     onCategoryClick: category => {
       dispatch(selectCategory(category));
     },
-    fetchData: () => {
+    fetchCategories: () => {
       dispatch(fetchCategories());
     },
   }
