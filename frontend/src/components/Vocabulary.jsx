@@ -6,7 +6,7 @@ const Vocabulary = props => (
   <div id="vocabulary">
     { props.words.map((word) => (
       <Word 
-        name={word.name}
+        item={word.item}
         key={word.id} />
     )) }
   </div>

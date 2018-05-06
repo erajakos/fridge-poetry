@@ -3,17 +3,17 @@ import PropTypes from 'prop-types';
 import '../styling/Word.css';
 
 const Word = props => (
-  <div class="word">
-    <span>{ props.name }</span>
+  <div className="word">
+    <span>{ props.item }</span>
   </div>
 );
 
 Word.defaultProps = {
-  name: 'anonymous'
+  item: 'anonymous'
 };
 
 Word.propTypes = {
-  name: PropTypes.string
+  item: PropTypes.string
 };
 
 export default Word;

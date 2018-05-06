@@ -1,3 +1,5 @@
+const API_ENDPOINT = `${process.env.REACT_APP_API}/api/v1`;
+
 export const fetchWordsBegin = () => ({
   type: 'FETCH_WORDS_BEGIN'
 });
@@ -18,21 +20,20 @@ export const clearWords = () => ({
 export const fetchWords = () => {
   return (dispatch, getState) => {
     dispatch(fetchWordsBegin());
-    setTimeout(() => {
-      dispatch(fetchWordsSuccess([
-        {
-          id: 1,
-          name: 'Kissa'
-        },
-        {
-          id: 2,
-          name: 'Koira'
-        },
-        {
-          id: 3,
-          name: 'Papukaija'
+
+    console.log(API_ENDPOINT);
+
+    return fetch(`${API_ENDPOINT}/words/all`)
+      .then((response) => response.json())
+      .then((responseJson) => {
+        if (responseJson.status === "success") {
+          dispatch(fetchWordsSuccess(responseJson.words));
+        } else {
+          dispatch(fetchWordsError());
         }
-      ]));
-    }, 1000);
+      })
+      .catch((error) => {
+        dispatch(fetchWordsError());
+      });
   }
 };
