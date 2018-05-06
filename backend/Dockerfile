@@ -6,6 +6,9 @@ WORKDIR /app
 # Install app dependencies
 COPY package.json ./
 
+# Copy sequelize configuration
+COPY .sequelizerc ./
+
 RUN npm install
 
 EXPOSE 9000
