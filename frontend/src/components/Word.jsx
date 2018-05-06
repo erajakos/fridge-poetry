@@ -1,11 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Draggable from 'react-draggable';
 import '../styling/Word.css';
 
 const Word = props => (
-  <div className="word">
-    <span>{ props.item }</span>
-  </div>
+  <Draggable>
+    <div className="word">
+      <span>{ props.item }</span>
+    </div>
+  </Draggable>
 );
 
 Word.defaultProps = {

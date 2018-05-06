@@ -1,4 +1,6 @@
 .word {
+  position:relative;
+  top:300px;
   font-family: Oswald;
   font-weight: normal;
   font-size: 16px;
