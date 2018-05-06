@@ -4,15 +4,15 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import { Route } from 'react-router';
 import { ConnectedRouter, routerMiddleware } from 'react-router-redux';
-import history from './history'
+import history from './history';
 import thunk from 'redux-thunk';
 import registerServiceWorker from './registerServiceWorker';
 import rootReducer from './reducers/index';
 
 import './styling/App.css';
-import Home from './components/Home';
+import Home from './containers/Home';
 import CategorySelector from './containers/CategorySelector';
-import Game from './components/Game';
+import Game from './containers/Game';
 
 // Build the middleware for:
 // 1. Redux Thunk
