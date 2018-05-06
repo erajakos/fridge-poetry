@@ -45,3 +45,4 @@ services:
     environment:
       - NODE_ENV=development
       - CHOKIDAR_USEPOLLING=true
+      - REACT_APP_API=${BACKEND_HOST}:${BACKEND_PORT}
